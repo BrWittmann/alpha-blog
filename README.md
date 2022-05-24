@@ -42,3 +42,14 @@ downloading a Ruby app to another computer to continue work:
 in CMD go to folder where you want your app to be cloned to, for example cd C:/my_apps/
 login to github and go to app you want to clone, press green button "Clone or Download", you will see SSH link, copy it.
 in CMD run git clone git@github.com:user/my-app.git (use SSH link you copied)
+
+
+
+
+heroku:
+
+in app
+heroku login
+
+heroku create
+
