@@ -67,6 +67,8 @@ gem 'tzinfo-data'
 
 
 gem 'net-smtp', require: false
+gem 'net-pop', require: false
+gem 'net-imap', require: false
 
 #Install yarn using your OS package manager, or take a look at https://yarnpkg.com/en/docs/install
 #Set it up rails webpacker:install
