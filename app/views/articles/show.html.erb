@@ -5,7 +5,7 @@
           <div class="shadow mb-5 bg-white rounded">
             <div class="card text-center">
               <div class="card-header font-italic">
-                by by <%= @article.user.username if @article.user %>
+                by <%= User.find(article.user_id).username %>
               </div>
             <div class="card-body">
               <div class="card-text text-left"><%= simple_format(@article.description) %></div>
