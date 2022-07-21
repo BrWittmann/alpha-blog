@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="input-group justify-content-center">
-                        <%= f.submit "Create", class: "btn btn-outline-light bt-lg", rule: "button" %>
+                        <%= f.submit(@user.new_record? ? "Create" : "Update account", class: "btn btn-outline-light bt-lg", rule: "button" )%>
                     </div>
 
                 <% end %>
